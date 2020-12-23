@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
+  console.log('Fetching the time slots...')
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   const mainFloorUrl = 'https://tinyurl.com/y6besxvu'

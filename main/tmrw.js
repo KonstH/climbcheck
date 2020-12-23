@@ -1,7 +1,6 @@
 const puppeteer = require('puppeteer');
-
 (async () => {
-  // const browser = await puppeteer.launch({headless: false});
+  console.log('Fetching the time slots...')
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   const mainFloorUrl = 'https://tinyurl.com/y6besxvu'
@@ -32,7 +31,7 @@ const puppeteer = require('puppeteer');
             })
             resolve(slots);
           }
-        }, 800);
+        }, 200);
       })
     }
     else {
