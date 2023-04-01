@@ -1,6 +1,9 @@
 # ClimbCheck
 
-Small set of scripts which fetch the available timeslots at my local climbing gym for either today or tomorrow
+:warning: **This repo is now deprecated, as the days of booking a timeslot on the climbing site have come to an end. Running the app will not yield any results.** :warning:
+
+
+Small set of scripts which fetch the available timeslots at my local climbing gym for either today or tomorrow.
 
 Things you need to run the app:
 
